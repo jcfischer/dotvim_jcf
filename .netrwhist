@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/jcf/dev/work/zollinger'
+let g:netrw_dirhist_2='/Users/jcf/dev/work/zollinger/vendor'
+let g:netrw_dirhist_3='/Users/jcf/dev/work/zollinger/vendor/extensions'
+let g:netrw_dirhist_4='/Users/jcf/dev/work/zollinger/vendor/extensions/shop'
+let g:netrw_dirhist_5='/Users/jcf/dev/work/zollinger/vendor/extensions/shop/db'
+let g:netrw_dirhist_6='/Users/jcf/dev/work/zollinger/vendor/extensions/shop'
+let g:netrw_dirhist_7='/Users/jcf/dev/work/zollinger/vendor/extensions/shop/app'
