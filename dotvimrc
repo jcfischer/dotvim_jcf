@@ -23,7 +23,7 @@ autocmd FileType python   set noexpandtab
 let g:fuzzy_ignore = "*.log"
 let g:fuzzy_matching_limit = 70
 
-map <leader>t :FuzzyFinderTextMate<CR>
+map <leader>w :FuzzyFinderTextMate<CR>
 map <leader>b :FuzzyFinderBuffer<CR>
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
@@ -92,4 +92,7 @@ set laststatus=2  " Always show status line.
 " gvim specific
 set mousehide  " Hide mouse after chars typed
 set mouse=a  " Mouse in all modes
+
+set grepprg=ack
+set grepformat=%f:%l:%m
 
